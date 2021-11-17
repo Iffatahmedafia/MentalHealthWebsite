@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans",sans-serif;
+}
+
+
+
+
+body{
+    min-height: 100vh;
+    width:100%;
+    background: url('../img/Happy2.jpg') no-repeat;
+    background-size: cover;
+    background-position:center;
+   
+}
+
+
+
+.top-bar {
+    background: #7aaec4;
+    height: 2.8rem;
+    
+  }
+  
+  .user-panel{
+    padding-top:10px;
+    
+  }
+  .user-panel a {
+    color: #fff;
+    padding: 0px 20px;
+    border-left: 1px solid #667792;
+    font-size: 1.15rem;
+    
+  
+  }
+  
+  .fa-user-circle-o{
+      padding:5px;
+       color: white;
+    
+    
+  }
+  .fa-sign-in{
+       color: white;
+       padding:5px;
+    
+  }
+  
+  
+  
+  /*============= NAVIGATION =============*/
+  
+  
+  
+  .navbar {
+  
+    font-size: 1.20rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+    margin-right: -15px;
+    padding-right: 0px;
+    
+  }
+  
+  
+  .navbar-nav {
+   
+    text-align: right;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .nav-item{
+    padding: .30rem;
+    display: inline-block;
+    text-align: right;
+    
+    
+    
+  }
+  
+  .nav-link {
+  
+    color: #5b5555!important;
+    
+    
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+  
+    color: #4981b3!important;
+    
+  
+  
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+   
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  
+
+.container1{
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+    
+}
+
+.container1 p{
+     margin-bottom: 40px;   
+}
+
+.contact-box{
+    background-color:#fff;
+    border-radius: 12px;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color:#7aaec4;
+    color:#fff;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.contact-left h3{
+    color:#7aaec4;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+input{
+    width:100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline:none;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+label{
+    margin-bottom:6px;
+    display: block;
+    color:black;
+}
+
+button{
+    background-color:#7aaec4;
+    width: 100px;
+    border: none;
+    outline:none;
+    color:#fff;
+    height:35px;
+    border-radius: 30px;
+    margin-top:20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+
+}
+
+tr td:first-child{
+    padding-right:20px;
+}
+tr td{
+    padding-top:20px;
+}

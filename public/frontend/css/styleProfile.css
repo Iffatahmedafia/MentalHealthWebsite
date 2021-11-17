@@ -1,0 +1,104 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  
+}
+.navbar {
+
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+  }
+  
+  .nav-item{
+    padding: .5rem;
+  }
+  
+  .nav-link {
+  
+    color: #5b5555!important;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+  
+    color: #4981b3!important;
+    
+  
+  
+  }
+  
+  .btn-md {
+    padding: 9px 25px;
+    margin-right: -10rem;
+  
+  }
+
+  
+  
+
+
+.main{
+    display: inline-block;
+    left: 40%;
+    position:absolute;
+}
+
+.title{
+  padding:20px;
+  margin:20px;
+}
+
+.col-left {
+  float: left;
+  margin-top: 10px;
+ 
+}
+
+.block {
+  margin: 30px 30px 30px 10px;
+
+}
+
+.block-content {
+padding-top:50px;
+
+}
+
+.block-content ul {
+  list-style-type: none;
+  
+}
+
+.block .block-title {
+  margin: 0 0 10px;
+  padding: 20px 20px 20px 0;
+  font-size: 25px;
+  position: relative;
+}
+
+.block .block-title strong {
+  font-size: 25px;
+  line-height: none;
+  color: #333;
+  font-weight: normal;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.block-account ul li {
+  padding-bottom: 5px;
+  text-align: left;
+  background: #f6f6f6;
+  border-radius: 5px;
+  padding: 10px 7px 10px;
+  margin-bottom: 8px;
+  box-shadow: inset 0 0 3px 3px #efefef;
+}
+
+
